@@ -1,0 +1,9 @@
+def base_frequency(n):
+    dic={}
+    for item in n:
+        if item in dic:
+            dic[item] += 1
+        else:
+            dic[item]= 1
+    print(dic)
+print(base_frequency("AAGTTAGTCA"))
