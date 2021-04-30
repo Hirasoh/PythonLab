@@ -28,3 +28,11 @@ def exponent(num,power):
     return(b)
 
 print(exponent(2,3))
+def reverse_string(name):
+    index= name
+    a=[]
+    b= 1
+    for i in range(len(index)):
+        a +=index[len(index) -b]
+        b=b+1
+    print("".join(a))
